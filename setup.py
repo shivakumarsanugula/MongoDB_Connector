@@ -6,10 +6,10 @@ with open('README.md', 'r', encoding='utf-8') as f:
    
 
 __version__ = "0.0.4"
-REPO_NAME = "mongodbconnectorpkg"
-PKG_NAME= "databaseautomation"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+REPO_NAME = "MongoDB_Connector"
+PKG_NAME= "MongoDB_Connector_PKG"
+AUTHOR_USER_NAME = "shivakumarsanugula"
+AUTHOR_EMAIL = "shivakumaryadav1997@gmail.com"
 
 setup(
     name=PKG_NAME,
