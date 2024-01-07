@@ -18,7 +18,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.5"
+__version__ = "0.0.8"
 REPO_NAME = "MongoDB_Connector"
 PKG_NAME= "mongodbconnection_test"
 AUTHOR_USER_NAME = "shivakumarsanugula"
@@ -38,6 +38,6 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    
+    install_requires=["pymongo","pymango[srv]","dnspython","pandas","numpy","ensure","pytest"]
     
 )
